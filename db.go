@@ -34,8 +34,8 @@ var (
 	// Local cached copy of a database downloaded from a URL.
 	defaultDB = filepath.Join(os.TempDir(), "freegeoip", "db.gz")
 
-	// MaxMindDB is the URL of the free MaxMind GeoLite2 database.
-	MaxMindDB = "http://geolite.maxmind.com/download/geoip/database/GeoLite2-City.mmdb.gz"
+	// MaxMindDB is the URL of the free MaxMind GeoLite2 database (with license key for La Haus)
+	MaxMindDB = "https://github.com/texnikru/GeoLite2-Database/raw/master/GeoLite2-City.mmdb.gz"
 )
 
 // DB is the IP geolocation database.
